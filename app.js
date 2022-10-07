@@ -12,7 +12,7 @@ const editdocs = require('./route/editdocs.js');
 const editdocsModel = require('./models/editdocs.js')
 
 const app = express();
-// const httpServer = require("http").createServer(app);
+const httpServer = require("http").createServer(app);
 
 const port = process.env.PORT || 1337;
 
